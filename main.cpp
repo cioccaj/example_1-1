@@ -7,7 +7,7 @@ int main()
 
     DigitalOut alarmLed(LED1);
 
-    gasDetector.mode(PullDown);
+    //gasDetector.mode(PullDown);
 
     alarmLed = OFF;
 
